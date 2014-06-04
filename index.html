@@ -1,0 +1,22 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+	<script type="text/javascript" src="http://zeptojs.com/zepto.min.js"></script>
+	<script type="text/javascript" src="src/storage.js"></script>
+	<script type="text/javascript">
+		var app = {
+			Storage : null
+		};
+
+		$(function()
+		{
+			// Initialize Storage
+			app.Storage = new Storage('your-namespace');
+		});
+	</script>
+
+</body>
+</html>
